@@ -20,5 +20,8 @@ package de.ait;
         public String makeSound() {
             return "Some animal sound";
         }
+        public void eat(String food) {
+            System.out.println(name + " is eating " + food);
+        }
     }
 
